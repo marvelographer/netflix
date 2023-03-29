@@ -1,0 +1,126 @@
+body{
+    background-color: #222;
+}
+.firstpage{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(img/netflix-bg1.jpg);
+    background-color: black;
+    color: white;
+}
+.firstpage img{
+    padding-left: 35px;
+    height: 100px;
+    width: 200px;
+}
+input[type=email]{
+    height: 55px; width: 400px;
+    font-size: 15px;
+}
+input[type=button]{
+    color: white;
+    background-color: red;
+    height: 55px; width: 200px;
+    font-size: 15px;
+    border: none;
+    margin-left: -4px;
+    padding-top: 21.5px;
+    padding-bottom: 39px;
+}
+.language{
+    background-color: transparent;
+    color: white;
+    float: right;
+    margin-top: 1%;
+    margin-right: 5.5%;
+    height: 35px; width: 90px;
+    border-radius: 5px;
+    border: white;
+}
+.signin{
+    background-color: red;
+    color: white;
+    float: right;
+    margin-top: 1%;
+    margin-right: 5.5%;
+    height: 35px; width: 90px;
+    border-radius: 5px;
+    border: none;
+}
+.content h1{
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    font-size: 50px;
+    font-family: Arial;
+}
+.content h3{
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+.secondpage{
+    background-color: black;
+    display: flex;
+}
+.secpgcontent{
+    font-family: Arial;
+    color: white;
+    font-size: xx-large;
+    padding-left: 100px;
+}
+.secpgimg{
+    padding: 100px;
+    border-radius: 10px;
+}
+
+
+.thirdpage{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+}
+.thirdpage .thirdpgcontentimg img{
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+}
+.thirdpgcontenttxt{
+    font-family: sans-serif;
+    padding-left: 200px;
+    color: white;
+    font-size: xx-large;
+}
+
+.forthpage{
+    display: flex;
+    background-color: black;
+}
+.forthpgcontent{
+    font-size: xx-large;
+    color: white;
+    font-family: sans-serif;
+    padding: 100px;
+}
+.forthpgimg img{
+    padding: 50px;
+    height: 300px;
+    width: 500px;
+}
+
+.fifthpage{
+    display: flex;
+    background-color: black;
+}
+.fifthpgimg img{
+    padding: 50px;
+    height: 450px;
+    width: 550px;
+}
+.fifthpgcontent{
+    padding-right: 100px;
+    padding-top: 100px;
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: white;
+}
